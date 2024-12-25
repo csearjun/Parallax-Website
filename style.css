@@ -1,0 +1,93 @@
+html,body{
+    height:100%;
+    margin: 0;
+    font-family: "Cambria";
+    font-size: 16px;
+    font-weight: 400px;
+    color: cornflowerblue;
+    line-height: 1.8;
+}
+
+.bg1{
+    background-image: url(images/image\ 1.jpg);
+    min-height: 100%;
+}
+.bg2{
+    background-image: url(images/image2.jpg);
+    min-height: 100%;
+}
+.bg3{
+    background-image: url(images/image3.jpg);
+    min-height: 100%;
+}
+.bg1,.bg2,.bg3{
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;/*will be fixed to the screen and will not scroll*/
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.text1{
+    background-color: blueviolet;
+    color: burlywood;
+    padding: 10px 10px;
+}
+.text2{
+    background-color: aquamarine;
+    color: black;
+    padding: 10px 10px;
+}
+.text3{
+    background-color: blanchedalmond;
+    color: sandybrown;
+    padding: 10px 10px;
+}
+.exp1,.exp2,.exp3{
+    text-align: center;
+    padding: 50px 80px;
+    background-color: azure;
+    color: black;
+}
+.bg{
+    background-color:yellow;
+    color: black;
+    font-family: cursive;
+    font-weight: 500px;
+}
+.name{
+    top: -1%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: 20px 20px;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 7px blue;
+}
+.intro{
+    background-image: url(images/image4.JPG);
+    position: relative;
+    background-attachment: fixed;
+    background-position: right;
+    padding-top: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height:100%;
+}
+.about{
+    text-align: center;
+    text-transform: capitalize;
+    color: black;
+    background-color: beige;
+    font-size: 20px;
+}
